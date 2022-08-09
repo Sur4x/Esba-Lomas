@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 16px;
     background-color: rgba(66, 68, 100, 0.007);
+    font-family: 'Bebas Neue', cursive;
 }
 
 body {
@@ -19,13 +20,14 @@ body {
 }
 
 .nav-items {
-    height: 90px;
+    background-color: rgb(6, 113, 195);
+    height: 100px;
     width: 100%;
 }
 
 .nav-links {
     text-decoration: none;
-    color: red;
+    color: white;
     font-size: 22px;
     height: 100%;
     width: 100%;
@@ -55,8 +57,8 @@ body {
 }
 
 .rojo:hover {
-    background-color: rgba(15, 22, 209, 0.319);
-    color: rgb(228, 198, 25);
+    background-color: rgba(64, 68, 177, 0.319);
+    color: rgb(255, 9, 9);
 }
 
 .rojo::before {
@@ -64,11 +66,19 @@ body {
 }
 
 .letras {
-    color: rgba(236, 12, 12, 0.638);
-    background-color: rgba(15, 22, 209, 0.319);
+    color: rgba(0, 0, 0, 0.944);
+    background-color: rgb(6, 113, 195);
 }
 
 .texto-carousel {
     color: rgb(255, 9, 9);
     background-color: rgb(21, 40, 200);
+}
+
+.sombra {
+    padding: 50px;
+    box-shadow: -1px 3px 25px 18px rgba(53, 76, 138, 0.43);
+    -webkit-box-shadow: -1px 3px 25px 18px rgba(53, 76, 138, 0.43);
+    -moz-box-shadow: -1px 3px 25px 18px rgba(53, 76, 138, 0.43);
+    border-radius: 25px 25px 25px 25px;
 }
